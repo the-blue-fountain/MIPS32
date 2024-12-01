@@ -1,0 +1,51 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../boothproject.gen/sources_1/ip/instr_memory/sim/instr_memory.v" \
+"../../../../boothproject.gen/sources_1/ip/data_memory/sim/data_memory.v" \
+"../../../../../design/ALU.v" \
+"../../../../../design/ALU_function.v" \
+"../../../../../design/AND.v" \
+"../../../../../design/AND_32.v" \
+"../../../../../design/Adder_32.v" \
+"../../../../../design/EightBitAdder.v" \
+"../../../../../design/EightBitSubtractor.v" \
+"../../../../../design/FourBitAdder.v" \
+"../../../../../design/HAMM.v" \
+"../../../../../design/HAMM_32.v" \
+"../../../../../design/IN_REG.v" \
+"../../../../../design/LMD.v" \
+"../../../../../design/MUX.v" \
+"../../../../../design/MUX1.v" \
+"../../../../../design/MUX_16_to_1.v" \
+"../../../../../design/MUX_2_to_1.v" \
+"../../../../../design/MUX_32_to_1.v" \
+"../../../../../design/MUX_4_to_1.v" \
+"../../../../../design/MUX_8_to_1.v" \
+"../../../../../design/OR.v" \
+"../../../../../design/OR_32.v" \
+"../../../../../design/PC.v" \
+"../../../../../design/RB.v" \
+"../../../../../design/SixteenAdder.v" \
+"../../../../../design/XOR.v" \
+"../../../../../design/XOR_32.v" \
+"../../../../../design/arithmetic_right_shift_32bit.v" \
+"../../../../boothproject.srcs/sources_1/new/clock_div.v" \
+"../../../../../design/comparator_32.v" \
+"../../../../../design/complementer.v" \
+"../../../../../design/control_path.v" \
+"../../../../../design/data_path.v" \
+"../../../../../design/full_adder.v" \
+"../../../../../design/half_adder.v" \
+"../../../../../design/instruction_decoder.v" \
+"../../../../../design/left_shift_32bit.v" \
+"../../../../../design/logical_right_shift_32bit.v" \
+"../../../../../design/sign_ext.v" \
+"../../../../../design/step_decoder.v" \
+"../../../../../design/top_module.v" \
+"../../../../../sim/test_bench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,50 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../final_project.gen/sources_1/ip/instr_memory/sim/instr_memory.v" \
+"../../../../final_project.gen/sources_1/ip/data_memory/sim/data_memory.v" \
+"../../../../final_project.srcs/sources_1/new/ALU.v" \
+"../../../../final_project.srcs/sources_1/new/ALU_function.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/AND.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/AND_32.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/Adder_32.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitAdder.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitSubtractor.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/FourBitAdder.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM_32.v" \
+"../../../../final_project.srcs/sources_1/new/IN_REG.v" \
+"../../../../final_project.srcs/sources_1/new/LMD.v" \
+"../../../../final_project.srcs/sources_1/new/MUX.v" \
+"../../../../final_project.srcs/sources_1/new/MUX1.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_16_to_1.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_2_to_1.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_32_to_1.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_4_to_1.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_8_to_1.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/OR.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/OR_32.v" \
+"../../../../final_project.srcs/sources_1/new/PC.v" \
+"../../../../final_project.srcs/sources_1/new/RB.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/SixteenAdder.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR_32.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/arithmetic_right_shift_32bit.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/comparator_32.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/complementer.v" \
+"../../../../final_project.srcs/sources_1/new/control_path.v" \
+"../../../../final_project.srcs/sources_1/new/data_path.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/full_adder.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/half_adder.v" \
+"../../../../final_project.srcs/sources_1/new/instruction_decoder.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/left_shift_32bit.v" \
+"../../../../../ALU_final.srcs/ALU_final.srcs/sources_1/new/logical_right_shift_32bit.v" \
+"../../../../final_project.srcs/sources_1/new/sign_ext.v" \
+"../../../../final_project.srcs/sources_1/new/step_decoder.v" \
+"../../../../final_project.srcs/sources_1/new/top_module.v" \
+"../../../../final_project.srcs/sim_1/new/test_bench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

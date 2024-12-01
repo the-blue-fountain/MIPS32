@@ -1,0 +1,6 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/synth/func/xsim/test_bench_func_synth.v,1730804744,verilog,,C:/Users/Sujan/Downloads/final_project/final_project.srcs/sim_1/new/test_bench.v,,IN_REG;LMD;PC;RB;control_path;data_memory;data_memory_blk_mem_gen_generic_cstr;data_memory_blk_mem_gen_prim_width;data_memory_blk_mem_gen_prim_width__parameterized0;data_memory_blk_mem_gen_prim_wrapper_init;data_memory_blk_mem_gen_prim_wrapper_init__parameterized0;data_memory_blk_mem_gen_top;data_memory_blk_mem_gen_v8_4_8;data_memory_blk_mem_gen_v8_4_8_synth;data_path;glbl;instr_memory;instr_memory_blk_mem_gen_generic_cstr;instr_memory_blk_mem_gen_prim_width;instr_memory_blk_mem_gen_prim_width__parameterized0;instr_memory_blk_mem_gen_prim_wrapper_init;instr_memory_blk_mem_gen_prim_wrapper_init__parameterized0;instr_memory_blk_mem_gen_top;instr_memory_blk_mem_gen_v8_4_8;instr_memory_blk_mem_gen_v8_4_8_synth;step_decoder;top_module,,,,,,,,
+C:/Users/Sujan/Downloads/final_project/final_project.srcs/sim_1/new/test_bench.v,1730804721,verilog,,,,test_bench,,,,,,,,

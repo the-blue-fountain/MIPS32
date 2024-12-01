@@ -1,0 +1,107 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (lin64) Build 5076996 Wed May 22 18:36:09 MDT 2024
+| Date         : Wed Nov 13 14:59:52 2024
+| Host         : MajiLaptop running 64-bit unknown
+| Command      : report_control_sets -verbose -file top_module_control_sets_placed.rpt
+| Design       : top_module
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    29 |
+|    Minimum number of control sets                        |    29 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    58 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    29 |
+| >= 0 to < 4        |     6 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    20 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              19 |            9 |
+| No           | No                    | Yes                    |              33 |           14 |
+| No           | Yes                   | No                     |               4 |            2 |
+| Yes          | No                    | No                     |             362 |          204 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             308 |          151 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+---------------------------+-----------------------------+------------------+----------------+--------------+
+|         Clock Signal         |       Enable Signal       |       Set/Reset Signal      | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------------------+---------------------------+-----------------------------+------------------+----------------+--------------+
+|  CP/reset_SD_reg/G0          |                           |                             |                1 |              1 |         1.00 |
+|  CP/EN1_reg/G0               |                           |                             |                1 |              1 |         1.00 |
+|  DP/in_reg/reset_SD          |                           | DP/in_reg/out_reg[0]        |                1 |              2 |         2.00 |
+|  DP/in_reg/out_reg[0]_1[0]   |                           |                             |                1 |              2 |         2.00 |
+|  DP/in_reg/out_ins_reg[31]_8 |                           | DP/in_reg/out_ins_reg[31]_9 |                1 |              2 |         2.00 |
+|  clk_slow_BUFG               |                           |                             |                1 |              3 |         3.00 |
+|  clk_slow_BUFG               | DP/in_reg/out_reg[3]_0[0] | CP/SD/final_reset           |                2 |              4 |         2.00 |
+|  clk_slow_BUFG               | CP/EN1_reg/Q              |                             |                4 |             10 |         2.50 |
+|  DP/in_reg/out_reg[0]_0      |                           |                             |                5 |             12 |         2.40 |
+|  clk_slow_BUFG               | CP/R[15][31]_i_3_5[0]     | reset_all_IBUF              |               16 |             32 |         2.00 |
+|  clk_slow_BUFG               | CP/R[15][31]_i_4_0[0]     | reset_all_IBUF              |               17 |             32 |         1.88 |
+|  clk_slow_BUFG               | CP/out_reg[1][0]          |                             |               11 |             32 |         2.91 |
+|  clk_slow_BUFG               | CP/R[15][31]_i_3_6[0]     | reset_all_IBUF              |               14 |             32 |         2.29 |
+|  clk_slow_BUFG               | CP/R[15][31]_i_3_4[0]     | reset_all_IBUF              |               13 |             32 |         2.46 |
+|  clk_slow_BUFG               | CP/R[15][31]_i_3_3[0]     | reset_all_IBUF              |               14 |             32 |         2.29 |
+|  clk_slow_BUFG               | CP/R[15][31]_i_3_0[0]     | reset_all_IBUF              |               13 |             32 |         2.46 |
+|  clk_slow_BUFG               | CP/reset_all[0]           |                             |               18 |             32 |         1.78 |
+|  clk_slow_BUFG               | CP/R[15][31]_i_3_2[0]     | reset_all_IBUF              |               15 |             32 |         2.13 |
+|  clk_slow_BUFG               | CP/LoadPC_reg_i_2[0]      | CP/SR[0]                    |               20 |             32 |         1.60 |
+|  clk_slow_BUFG               | CP/reset_all_6[0]         |                             |               13 |             32 |         2.46 |
+|  clk_slow_BUFG               | CP/reset_all_5[0]         |                             |               17 |             32 |         1.88 |
+|  clk_slow_BUFG               | CP/reset_all_4[0]         |                             |               16 |             32 |         2.00 |
+|  clk_slow_BUFG               | CP/reset_all_3[0]         |                             |               15 |             32 |         2.13 |
+|  clk_slow_BUFG               | CP/reset_all_2[0]         |                             |               17 |             32 |         1.88 |
+|  clk_slow_BUFG               | CP/reset_all_1[0]         |                             |               14 |             32 |         2.29 |
+|  clk_slow_BUFG               | CP/reset_all_0[0]         |                             |               15 |             32 |         2.13 |
+|  clk_IBUF_BUFG               |                           | reset_all_IBUF              |               14 |             33 |         2.36 |
+|  clk_slow_BUFG               | CP/R[15][31]_i_3_1[0]     | reset_all_IBUF              |               27 |             48 |         1.78 |
+| ~clk_slow_BUFG               | CP/EN_reg_0[0]            |                             |               64 |             64 |         1.00 |
++------------------------------+---------------------------+-----------------------------+------------------+----------------+--------------+
+
+

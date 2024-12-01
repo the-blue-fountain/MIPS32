@@ -1,0 +1,150 @@
+/*
+
+AMD Vivado v2024.1 (64-bit) [Major: 2024, Minor: 1]
+SW Build: 5076996 on Wed May 22 18:36:09 MDT 2024
+IP Build: 5075265 on Wed May 22 21:45:21 MDT 2024
+IP Build: 5075265 on Wed May 22 21:45:21 MDT 2024
+
+Process ID (PID): 69
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Nov 12 22:49:52 IST 2024
+Time zone: 	India Standard Time (Asia/Kolkata)
+
+OS: NAME=GNOME
+OS Version: 6.10.13-3-MANJARO
+OS Architecture: amd64
+Available processors (cores): 12
+LSB Release Description: NAME=GNOME
+
+Display: 1
+Screen size: 1920x1080
+Local screen bounds: x = 0, y = 40, width = 1920, height = 1040
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+JavaFX version: 21.0.1
+Java home: 	/home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/tps/lnx64/jre21.0.1_12
+Java executable: 	/home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/tps/lnx64/jre21.0.1_12/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	maji
+User home directory: /home/maji
+User working directory: /home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/booth/boothproject
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado
+HDI_APPROOT: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1
+RDI_DATADIR: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data
+RDI_BINDIR: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/bin
+
+Vivado preferences file: /home/maji/.Xilinx/Vivado/2024.1/vivado.xml
+Vivado preferences directory: /home/maji/.Xilinx/Vivado/2024.1/
+Vivado layouts directory: /home/maji/.Xilinx/Vivado/2024.1/data/layouts
+PlanAhead jar file: 	/home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/lib/classes/planAhead.jar
+Vivado log file: 	/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/booth/boothproject/vivado.log
+Vivado journal file: 	/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/booth/boothproject/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-69-MajiLaptop
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1
+RDI_BASEROOT: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado
+RDI_BINROOT: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/bin
+RDI_BUILD: yes
+RDI_DATADIR: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data
+RDI_INSTALLROOT: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install
+RDI_INSTALLVER: 2024.1
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/lib/lnx64.o/Default:/home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/ids_lite/ISE/bin/lin64
+RDI_PROG: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/booth/boothproject:MajiLaptop_1731431980_30
+RDI_SHARED_DATA: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/SharedData/2024.1/data
+RDI_TPS_ROOT: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/tps/lnx64
+RDI_USE_JDK21: True
+SHELL: /bin/sh
+XILINX: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/ids_lite/ISE
+XILINX_DSP: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/ids_lite/ISE
+XILINX_HLS: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vitis_HLS/2024.1
+XILINX_PLANAHEAD: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1
+XILINX_VIVADO: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1
+XILINX_VIVADO_HLS: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,557 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: /home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/booth/boothproject/boothproject.xpr. Version: Vivado v2024.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project /home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/booth/boothproject/boothproject.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,612 MB. GUI used memory: 69 MB. Current time: 11/12/24, 10:49:53 PM IST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 108 MB (+110697kb) [00:00:13]
+// [Engine Memory]: 1,696 MB (+1626827kb) [00:00:13]
+// [GUI Memory]: 120 MB (+7379kb) [00:00:14]
+// [Engine Memory]: 1,875 MB (+98376kb) [00:00:14]
+// WARNING: HEventQueue.dispatchEvent() is taking  2380 ms.
+// Tcl Message: open_project /home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/booth/boothproject/boothproject.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/ip'. 
+// [GUI Memory]: 127 MB (+1026kb) [00:00:15]
+// [GUI Memory]: 136 MB (+2343kb) [00:00:15]
+// Tcl Message: open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:10 . Memory (MB): peak = 7960.430 ; gain = 483.820 ; free physical = 2443 ; free virtual = 8756 
+// [GUI Memory]: 149 MB (+6417kb) [00:00:15]
+// Project name: boothproject; location: /home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/booth/boothproject; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bj (Open Project Progress)
+// [GUI Memory]: 157 MB (+56kb) [00:00:18]
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: FILE_SET_CHANGE

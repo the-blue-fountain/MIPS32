@@ -1,0 +1,30 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/synth/func/xsim/test_bench_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_REG
+INFO: [VRFC 10-311] analyzing module LMD
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-311] analyzing module RB
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-311] analyzing module instr_memory
+INFO: [VRFC 10-311] analyzing module step_decoder
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-311] analyzing module data_memory_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module data_memory_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module data_memory_blk_mem_gen_prim_width__parameterized0
+INFO: [VRFC 10-311] analyzing module data_memory_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-311] analyzing module data_memory_blk_mem_gen_prim_wrapper_init__parameterized0
+INFO: [VRFC 10-311] analyzing module data_memory_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module data_memory_blk_mem_gen_v8_4_8
+INFO: [VRFC 10-311] analyzing module data_memory_blk_mem_gen_v8_4_8_synth
+INFO: [VRFC 10-311] analyzing module instr_memory_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module instr_memory_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module instr_memory_blk_mem_gen_prim_width__parameterized0
+INFO: [VRFC 10-311] analyzing module instr_memory_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-311] analyzing module instr_memory_blk_mem_gen_prim_wrapper_init__parameterized0
+INFO: [VRFC 10-311] analyzing module instr_memory_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module instr_memory_blk_mem_gen_v8_4_8
+INFO: [VRFC 10-311] analyzing module instr_memory_blk_mem_gen_v8_4_8_synth
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench

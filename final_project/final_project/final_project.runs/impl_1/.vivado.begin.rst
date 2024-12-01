@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="Sujan" Host="SUJAN-KGP" Pid="17504" HostCore="12" HostMemory="08259358720">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="Sujan" Host="SUJAN-KGP" Pid="3428" HostCore="12" HostMemory="08259358720">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="Sujan" Host="SUJAN-KGP" Pid="24744" HostCore="12" HostMemory="08259358720">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="Sujan" Host="SUJAN-KGP" Pid="27212" HostCore="12" HostMemory="08259358720">
+    </Process>
+</ProcessHandle>

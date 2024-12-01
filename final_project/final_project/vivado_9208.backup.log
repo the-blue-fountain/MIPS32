@@ -1,0 +1,2248 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Nov  5 17:28:44 2024
+# Process ID: 9208
+# Current directory: C:/Users/Sujan/Downloads/final_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14436 C:\Users\Sujan\Downloads\final_project\final_project.xpr
+# Log file: C:/Users/Sujan/Downloads/final_project/vivado.log
+# Journal file: C:/Users/Sujan/Downloads/final_project\vivado.jou
+# Running On        :SUJAN-KGP
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-1235U
+# CPU Frequency     :2496 MHz
+# CPU Physical cores:10
+# CPU Logical cores :12
+# Host memory       :8259 MB
+# Swap memory       :16925 MB
+# Total Virtual     :25184 MB
+# Available Virtual :13604 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Sujan/Downloads/final_project/final_project.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/MYDOWNLOADS/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:39 ; elapsed = 00:00:47 . Memory (MB): peak = 1732.453 ; gain = 618.805
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/Sujan/Downloads/booth_data.coe' provided. It will be converted relative to IP Instance files '../../../../../booth_data.coe'
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/Sujan/Downloads/booth_ins.coe' provided. It will be converted relative to IP Instance files '../../../../../booth_ins.coe'
+set_property CONFIG.Coe_File {C:/Users/Sujan/Downloads/booth_ins.coe} [get_ips instr_memory]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/Sujan/Downloads/booth_ins.coe' provided. It will be converted relative to IP Instance files '../../../../../booth_ins.coe'
+generate_target all [get_files  C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'instr_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'instr_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'instr_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'instr_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'instr_memory'...
+catch { config_ip_cache -export [get_ips -all instr_memory] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: instr_memory
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 4bbd7e885f7fbc3d to dir: c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Sujan/Downloads/final_project/final_project.cache/ip/2024.1/4/b/4bbd7e885f7fbc3d/instr_memory.dcp to c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Sujan/Downloads/final_project/final_project.cache/ip/2024.1/4/b/4bbd7e885f7fbc3d/instr_memory_sim_netlist.v to c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Sujan/Downloads/final_project/final_project.cache/ip/2024.1/4/b/4bbd7e885f7fbc3d/instr_memory_sim_netlist.vhdl to c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Sujan/Downloads/final_project/final_project.cache/ip/2024.1/4/b/4bbd7e885f7fbc3d/instr_memory_stub.v to c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Sujan/Downloads/final_project/final_project.cache/ip/2024.1/4/b/4bbd7e885f7fbc3d/instr_memory_stub.vhdl to c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP instr_memory, cache-ID = 4bbd7e885f7fbc3d; cache size = 7.243 MB.
+catch { [ delete_ip_run [get_ips -all instr_memory] ] }
+INFO: [Project 1-386] Moving file 'C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci' from fileset 'instr_memory' to fileset 'sources_1'.
+export_ip_user_files -of_objects [get_files C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci'
+export_simulation -of_objects [get_files C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci] -directory C:/Users/Sujan/Downloads/final_project/final_project.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Sujan/Downloads/final_project/final_project.ip_user_files -ipstatic_source_dir C:/Users/Sujan/Downloads/final_project/final_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/modelsim} {questa=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/questa} {riviera=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/riviera} {activehdl=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/Sujan/Downloads/booth_data.coe' provided. It will be converted relative to IP Instance files '../../../../../booth_data.coe'
+set_property CONFIG.Coe_File {C:/Users/Sujan/Downloads/booth_data.coe} [get_ips data_memory]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/Sujan/Downloads/booth_data.coe' provided. It will be converted relative to IP Instance files '../../../../../booth_data.coe'
+generate_target all [get_files  C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/data_memory/data_memory.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'data_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'data_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'data_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'data_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'data_memory'...
+catch { config_ip_cache -export [get_ips -all data_memory] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: data_memory
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry ea7ca651f7717e3f to dir: c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Sujan/Downloads/final_project/final_project.cache/ip/2024.1/e/a/ea7ca651f7717e3f/data_memory.dcp to c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/data_memory.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/data_memory.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Sujan/Downloads/final_project/final_project.cache/ip/2024.1/e/a/ea7ca651f7717e3f/data_memory_sim_netlist.v to c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/data_memory_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/data_memory_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Sujan/Downloads/final_project/final_project.cache/ip/2024.1/e/a/ea7ca651f7717e3f/data_memory_sim_netlist.vhdl to c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/data_memory_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/data_memory_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Sujan/Downloads/final_project/final_project.cache/ip/2024.1/e/a/ea7ca651f7717e3f/data_memory_stub.v to c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/data_memory_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/data_memory_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Sujan/Downloads/final_project/final_project.cache/ip/2024.1/e/a/ea7ca651f7717e3f/data_memory_stub.vhdl to c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/data_memory_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/data_memory_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP data_memory, cache-ID = ea7ca651f7717e3f; cache size = 7.243 MB.
+catch { [ delete_ip_run [get_ips -all data_memory] ] }
+INFO: [Project 1-386] Moving file 'C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/data_memory/data_memory.xci' from fileset 'data_memory' to fileset 'sources_1'.
+export_ip_user_files -of_objects [get_files C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/data_memory/data_memory.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/data_memory/data_memory.xci]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/data_memory/data_memory.xci'
+export_simulation -of_objects [get_files C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/data_memory/data_memory.xci] -directory C:/Users/Sujan/Downloads/final_project/final_project.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Sujan/Downloads/final_project/final_project.ip_user_files -ipstatic_source_dir C:/Users/Sujan/Downloads/final_project/final_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/modelsim} {questa=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/questa} {riviera=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/riviera} {activehdl=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_bench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/MYDOWNLOADS/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/MYDOWNLOADS/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/booth_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/instr_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/booth_ins.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file - 1.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/sort-ins.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/sim/instr_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/sim/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU_function.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_function
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/Adder_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitSubtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitSubtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/FourBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/IN_REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/LMD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LMD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_16_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_2_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_32_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_32_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_4_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_8_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/SixteenAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SixteenAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/arithmetic_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/comparator_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/complementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/instruction_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/left_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/logical_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module logical_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/sign_ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/step_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module step_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1732.453 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '8' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/MYDOWNLOADS/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.FourBitAdder
+Compiling module xil_defaultlib.EightBitAdder
+Compiling module xil_defaultlib.SixteenAdder
+Compiling module xil_defaultlib.Adder_32
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.RB
+Compiling module xil_defaultlib.sign_ext
+Compiling module xil_defaultlib.EightBitSubtractor
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.AND_32
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.OR_32
+Compiling module xil_defaultlib.XOR
+Compiling module xil_defaultlib.XOR_32
+Compiling module xil_defaultlib.complementer
+Compiling module xil_defaultlib.MUX_2_to_1
+Compiling module xil_defaultlib.MUX_4_to_1
+Compiling module xil_defaultlib.MUX_8_to_1
+Compiling module xil_defaultlib.MUX_16_to_1
+Compiling module xil_defaultlib.MUX_32_to_1
+Compiling module xil_defaultlib.left_shift_32bit
+Compiling module xil_defaultlib.logical_right_shift_32bit
+Compiling module xil_defaultlib.arithmetic_right_shift_32bit
+Compiling module xil_defaultlib.comparator_32
+Compiling module xil_defaultlib.HAMM
+Compiling module xil_defaultlib.HAMM_32bit
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.LMD
+Compiling module xil_defaultlib.PC
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.instr_memory
+Compiling module xil_defaultlib.IN_REG
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.step_decoder
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.ALU_function
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 1732.453 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '20' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.d1.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.im.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+                   0          x  
+                   0          0  
+                  33         10  
+                  36         20  
+                  40         10  
+                  50          5  
+                  62          2  
+                  72          1  
+                  83          0  
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:35 . Memory (MB): peak = 1732.453 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_bench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/MYDOWNLOADS/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/MYDOWNLOADS/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/booth_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/instr_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/booth_ins.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file - 1.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/sort-ins.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/sim/instr_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/sim/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU_function.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_function
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/Adder_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitSubtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitSubtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/FourBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/IN_REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/LMD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LMD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_16_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_2_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_32_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_32_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_4_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_8_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/SixteenAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SixteenAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/arithmetic_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/comparator_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/complementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/instruction_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/left_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/logical_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module logical_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/sign_ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/step_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module step_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2718.973 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '8' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/MYDOWNLOADS/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.FourBitAdder
+Compiling module xil_defaultlib.EightBitAdder
+Compiling module xil_defaultlib.SixteenAdder
+Compiling module xil_defaultlib.Adder_32
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.RB
+Compiling module xil_defaultlib.sign_ext
+Compiling module xil_defaultlib.EightBitSubtractor
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.AND_32
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.OR_32
+Compiling module xil_defaultlib.XOR
+Compiling module xil_defaultlib.XOR_32
+Compiling module xil_defaultlib.complementer
+Compiling module xil_defaultlib.MUX_2_to_1
+Compiling module xil_defaultlib.MUX_4_to_1
+Compiling module xil_defaultlib.MUX_8_to_1
+Compiling module xil_defaultlib.MUX_16_to_1
+Compiling module xil_defaultlib.MUX_32_to_1
+Compiling module xil_defaultlib.left_shift_32bit
+Compiling module xil_defaultlib.logical_right_shift_32bit
+Compiling module xil_defaultlib.arithmetic_right_shift_32bit
+Compiling module xil_defaultlib.comparator_32
+Compiling module xil_defaultlib.HAMM
+Compiling module xil_defaultlib.HAMM_32bit
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.LMD
+Compiling module xil_defaultlib.PC
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.instr_memory
+Compiling module xil_defaultlib.IN_REG
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.step_decoder
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.ALU_function
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 2718.973 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '18' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.d1.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.im.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+                   0          x          x 
+                   0          0          0 
+                  31          0          9 
+                  42          0         18 
+                  52          0         36 
+                  63          0         72 
+                  74          0        144 
+                  85          0        288 
+                  93          0        576 
+                 101          0       1152 
+                 109          0       2304 
+xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2718.973 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:33 . Memory (MB): peak = 2718.973 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_bench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/MYDOWNLOADS/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/MYDOWNLOADS/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/booth_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/instr_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/booth_ins.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file - 1.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/sort-ins.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/sim/instr_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/sim/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU_function.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_function
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/Adder_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitSubtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitSubtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/FourBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/IN_REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/LMD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LMD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_16_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_2_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_32_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_32_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_4_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_8_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/SixteenAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SixteenAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/arithmetic_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/comparator_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/complementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/instruction_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/left_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/logical_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module logical_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/sign_ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/step_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module step_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2718.973 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/MYDOWNLOADS/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.FourBitAdder
+Compiling module xil_defaultlib.EightBitAdder
+Compiling module xil_defaultlib.SixteenAdder
+Compiling module xil_defaultlib.Adder_32
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.RB
+Compiling module xil_defaultlib.sign_ext
+Compiling module xil_defaultlib.EightBitSubtractor
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.AND_32
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.OR_32
+Compiling module xil_defaultlib.XOR
+Compiling module xil_defaultlib.XOR_32
+Compiling module xil_defaultlib.complementer
+Compiling module xil_defaultlib.MUX_2_to_1
+Compiling module xil_defaultlib.MUX_4_to_1
+Compiling module xil_defaultlib.MUX_8_to_1
+Compiling module xil_defaultlib.MUX_16_to_1
+Compiling module xil_defaultlib.MUX_32_to_1
+Compiling module xil_defaultlib.left_shift_32bit
+Compiling module xil_defaultlib.logical_right_shift_32bit
+Compiling module xil_defaultlib.arithmetic_right_shift_32bit
+Compiling module xil_defaultlib.comparator_32
+Compiling module xil_defaultlib.HAMM
+Compiling module xil_defaultlib.HAMM_32bit
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.LMD
+Compiling module xil_defaultlib.PC
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.instr_memory
+Compiling module xil_defaultlib.IN_REG
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.step_decoder
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.ALU_function
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:19 . Memory (MB): peak = 2718.973 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '19' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.d1.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.im.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+                   0          x          x 
+                   0          0          0 
+                  31          0          9 
+                  33         10          9 
+                  36         20          9 
+                  40         10          9 
+                  42         10         18 
+                  50          5         18 
+                  52          5         36 
+                  62          2         36 
+                  63          2         72 
+                  72          1         72 
+                  74          1        144 
+                  83          0        144 
+                  85          0        288 
+                  93          0        576 
+                 101          0       1152 
+                 109          0       2304 
+xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2718.973 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:32 . Memory (MB): peak = 2718.973 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_bench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/MYDOWNLOADS/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/MYDOWNLOADS/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/booth_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/instr_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/booth_ins.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file - 1.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/sort-ins.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/sim/instr_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/sim/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU_function.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_function
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/Adder_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitSubtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitSubtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/FourBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/IN_REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/LMD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LMD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_16_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_2_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_32_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_32_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_4_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_8_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/SixteenAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SixteenAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/arithmetic_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/comparator_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/complementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/instruction_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/left_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/logical_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module logical_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/sign_ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/step_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module step_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2718.973 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/MYDOWNLOADS/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.FourBitAdder
+Compiling module xil_defaultlib.EightBitAdder
+Compiling module xil_defaultlib.SixteenAdder
+Compiling module xil_defaultlib.Adder_32
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.RB
+Compiling module xil_defaultlib.sign_ext
+Compiling module xil_defaultlib.EightBitSubtractor
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.AND_32
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.OR_32
+Compiling module xil_defaultlib.XOR
+Compiling module xil_defaultlib.XOR_32
+Compiling module xil_defaultlib.complementer
+Compiling module xil_defaultlib.MUX_2_to_1
+Compiling module xil_defaultlib.MUX_4_to_1
+Compiling module xil_defaultlib.MUX_8_to_1
+Compiling module xil_defaultlib.MUX_16_to_1
+Compiling module xil_defaultlib.MUX_32_to_1
+Compiling module xil_defaultlib.left_shift_32bit
+Compiling module xil_defaultlib.logical_right_shift_32bit
+Compiling module xil_defaultlib.arithmetic_right_shift_32bit
+Compiling module xil_defaultlib.comparator_32
+Compiling module xil_defaultlib.HAMM
+Compiling module xil_defaultlib.HAMM_32bit
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.LMD
+Compiling module xil_defaultlib.PC
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.instr_memory
+Compiling module xil_defaultlib.IN_REG
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.step_decoder
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.ALU_function
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 2718.973 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '14' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.d1.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.im.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+                   0 00000000000000000000000000000000 
+                   0 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+                   1 01110000000010000000000000000000 
+                  32 01110000000100000000000000000001 
+                  33 00000000000010100000000000000001 
+                  34 00000000000000011000000000001111 
+                  35 00001010101010000000000000001000 
+                  35 01000001000100000000000000000001 
+                  36 00011001001100000000000000000001 
+                  37 00011001001110000000000000000010 
+                  38 00000011001110110000000000000001 
+                  39 10011011000000000000000000000110 
+                  39 01010001000100000000000000000001 
+                  40 01000010001000000000000000000001 
+                  41 01000000100010000000000000000001 
+                  42 00010010101010000000000000000001 
+                  43 10011010100000000000000000000001 
+                  43 10000000000001111111111111110000 
+                  44 00011001001100000000000000000001 
+                  45 00011001001110000000000000000010 
+                  46 00000011001110110000000000000001 
+                  47 10011011000000000000000000000110 
+                  47 10001011000000000000000000000011 
+                  48 00000001101000011000000000000000 
+                  49 10000000000000000000000000000000 
+                  50 01010001000100000000000000000001 
+                  51 01000010001000000000000000000001 
+                  51 01000000100010000000000000000001 
+                  52 00010010101010000000000000000001 
+                  53 10011010100000000000000000000001 
+                  54 10000000000001111111111111110000 
+                  55 00011001001100000000000000000001 
+                  55 00011001001110000000000000000010 
+                  56 00000011001110110000000000000001 
+                  57 10011011000000000000000000000110 
+                  58 10001011000000000000000000000011 
+                  59 10010011000000000000000000000000 
+                  59 00000001100010011000000000000000 
+                  60 10000000000000000000000000000010 
+                  61 01010001000100000000000000000001 
+                  62 01000010001000000000000000000001 
+                  63 01000000100010000000000000000001 
+                  63 00010010101010000000000000000001 
+                  64 10011010100000000000000000000001 
+                  65 10000000000001111111111111110000 
+                  66 00011001001100000000000000000001 
+                  67 00011001001110000000000000000010 
+                  67 00000011001110110000000000000001 
+                  68 10011011000000000000000000000110 
+                  69 10001011000000000000000000000011 
+                  70 00000001101000011000000000000000 
+                  71 10000000000000000000000000000000 
+                  71 01010001000100000000000000000001 
+                  72 01000010001000000000000000000001 
+                  73 01000000100010000000000000000001 
+                  74 00010010101010000000000000000001 
+                  75 10011010100000000000000000000001 
+                  75 10000000000001111111111111110000 
+                  76 00011001001100000000000000000001 
+                  77 00011001001110000000000000000010 
+                  78 00000011001110110000000000000001 
+                  79 10011011000000000000000000000110 
+                  79 10001011000000000000000000000011 
+                  80 10010011000000000000000000000000 
+                  81 00000001100010011000000000000000 
+                  82 10000000000000000000000000000010 
+                  83 01010001000100000000000000000001 
+                  83 01000010001000000000000000000001 
+                  84 01000000100010000000000000000001 
+                  85 00010010101010000000000000000001 
+                  86 10011010100000000000000000000001 
+                  87 10000000000001111111111111110000 
+                  87 00011001001100000000000000000001 
+                  88 00011001001110000000000000000010 
+                  89 00000011001110110000000000000001 
+                  90 10011011000000000000000000000110 
+                  91 01010001000100000000000000000001 
+                  91 01000010001000000000000000000001 
+                  92 01000000100010000000000000000001 
+                  93 00010010101010000000000000000001 
+                  94 10011010100000000000000000000001 
+                  95 10000000000001111111111111110000 
+                  95 00011001001100000000000000000001 
+                  96 00011001001110000000000000000010 
+                  97 00000011001110110000000000000001 
+                  98 10011011000000000000000000000110 
+                  99 01010001000100000000000000000001 
+                  99 01000010001000000000000000000001 
+                 100 01000000100010000000000000000001 
+                 101 00010010101010000000000000000001 
+                 102 10011010100000000000000000000001 
+                 103 10000000000001111111111111110000 
+                 103 00011001001100000000000000000001 
+                 104 00011001001110000000000000000010 
+                 105 00000011001110110000000000000001 
+                 106 10011011000000000000000000000110 
+                 107 01010001000100000000000000000001 
+                 107 01000010001000000000000000000001 
+                 108 01000000100010000000000000000001 
+                 109 00010010101010000000000000000001 
+                 110 10011010100000000000000000000001 
+                 111 00000001100000010000000000001111 
+                 111 10110000000000000000000000000000 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:24 . Memory (MB): peak = 2718.973 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_bench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/MYDOWNLOADS/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/MYDOWNLOADS/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/booth_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/instr_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/booth_ins.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file - 1.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/sort-ins.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/sim/instr_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/sim/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU_function.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_function
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/Adder_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitSubtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitSubtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/FourBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/IN_REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/LMD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LMD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_16_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_2_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_32_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_32_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_4_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_8_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/SixteenAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SixteenAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/arithmetic_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/comparator_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/complementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/instruction_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/left_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/logical_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module logical_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/sign_ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/step_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module step_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2718.973 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/MYDOWNLOADS/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.FourBitAdder
+Compiling module xil_defaultlib.EightBitAdder
+Compiling module xil_defaultlib.SixteenAdder
+Compiling module xil_defaultlib.Adder_32
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.RB
+Compiling module xil_defaultlib.sign_ext
+Compiling module xil_defaultlib.EightBitSubtractor
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.AND_32
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.OR_32
+Compiling module xil_defaultlib.XOR
+Compiling module xil_defaultlib.XOR_32
+Compiling module xil_defaultlib.complementer
+Compiling module xil_defaultlib.MUX_2_to_1
+Compiling module xil_defaultlib.MUX_4_to_1
+Compiling module xil_defaultlib.MUX_8_to_1
+Compiling module xil_defaultlib.MUX_16_to_1
+Compiling module xil_defaultlib.MUX_32_to_1
+Compiling module xil_defaultlib.left_shift_32bit
+Compiling module xil_defaultlib.logical_right_shift_32bit
+Compiling module xil_defaultlib.arithmetic_right_shift_32bit
+Compiling module xil_defaultlib.comparator_32
+Compiling module xil_defaultlib.HAMM
+Compiling module xil_defaultlib.HAMM_32bit
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.LMD
+Compiling module xil_defaultlib.PC
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.instr_memory
+Compiling module xil_defaultlib.IN_REG
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.step_decoder
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.ALU_function
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 2718.973 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.d1.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.im.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+                   0          x          x 
+                   0          0          0 
+                  46          0          2 
+                  46 4294967294          2 
+                  55          1          2 
+                  56          1          0 
+                  66          0          0 
+                  67          0          2 
+                  68 4294967294          2 
+                  77          1          2 
+                  78          1          0 
+                  88          0          0 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 2718.973 ; gain = 0.000
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/Sujan/Downloads/booth_ins.coe' provided. It will be converted relative to IP Instance files '../../../../../booth_ins.coe'
+set_property CONFIG.Coe_File {C:/Users/Sujan/Downloads/booth_ins.coe} [get_ips instr_memory]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/Sujan/Downloads/booth_ins.coe' provided. It will be converted relative to IP Instance files '../../../../../booth_ins.coe'
+generate_target all [get_files  C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'instr_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'instr_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'instr_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'instr_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'instr_memory'...
+catch { config_ip_cache -export [get_ips -all instr_memory] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: instr_memory
+export_ip_user_files -of_objects [get_files C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci]
+launch_runs instr_memory_synth_1 -jobs 6
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: instr_memory
+[Tue Nov  5 17:56:02 2024] Launched instr_memory_synth_1...
+Run output will be captured here: C:/Users/Sujan/Downloads/final_project/final_project.runs/instr_memory_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci] -directory C:/Users/Sujan/Downloads/final_project/final_project.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Sujan/Downloads/final_project/final_project.ip_user_files -ipstatic_source_dir C:/Users/Sujan/Downloads/final_project/final_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/modelsim} {questa=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/questa} {riviera=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/riviera} {activehdl=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_bench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/MYDOWNLOADS/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/MYDOWNLOADS/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/booth_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/instr_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/booth_ins.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file - 1.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/sort-ins.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/sim/instr_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/sim/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU_function.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_function
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/Adder_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitSubtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitSubtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/FourBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/IN_REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/LMD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LMD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_16_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_2_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_32_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_32_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_4_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_8_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/SixteenAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SixteenAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/arithmetic_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/comparator_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/complementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/instruction_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/left_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/logical_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module logical_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/sign_ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/step_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module step_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2718.973 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/MYDOWNLOADS/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.FourBitAdder
+Compiling module xil_defaultlib.EightBitAdder
+Compiling module xil_defaultlib.SixteenAdder
+Compiling module xil_defaultlib.Adder_32
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.RB
+Compiling module xil_defaultlib.sign_ext
+Compiling module xil_defaultlib.EightBitSubtractor
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.AND_32
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.OR_32
+Compiling module xil_defaultlib.XOR
+Compiling module xil_defaultlib.XOR_32
+Compiling module xil_defaultlib.complementer
+Compiling module xil_defaultlib.MUX_2_to_1
+Compiling module xil_defaultlib.MUX_4_to_1
+Compiling module xil_defaultlib.MUX_8_to_1
+Compiling module xil_defaultlib.MUX_16_to_1
+Compiling module xil_defaultlib.MUX_32_to_1
+Compiling module xil_defaultlib.left_shift_32bit
+Compiling module xil_defaultlib.logical_right_shift_32bit
+Compiling module xil_defaultlib.arithmetic_right_shift_32bit
+Compiling module xil_defaultlib.comparator_32
+Compiling module xil_defaultlib.HAMM
+Compiling module xil_defaultlib.HAMM_32bit
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.LMD
+Compiling module xil_defaultlib.PC
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.instr_memory
+Compiling module xil_defaultlib.IN_REG
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.step_decoder
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.ALU_function
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 2718.973 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.d1.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.im.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+                   0          x          x 
+                   0          0          0 
+                  46          0          2 
+                  46          0          1 
+                  47 4294967295          1 
+                  56 4294967295          0 
+                  66 4294967295          2 
+                  67 4294967295          1 
+                  68 4294967294          1 
+                  77 4294967294          0 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:22 . Memory (MB): peak = 2718.973 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_bench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/MYDOWNLOADS/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/MYDOWNLOADS/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/booth_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/instr_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/booth_ins.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file - 1.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/sort-ins.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/sim/instr_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/sim/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU_function.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_function
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/Adder_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitSubtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitSubtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/FourBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/IN_REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/LMD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LMD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_16_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_2_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_32_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_32_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_4_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_8_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/SixteenAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SixteenAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/arithmetic_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/comparator_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/complementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/instruction_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/left_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/logical_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module logical_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/sign_ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/step_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module step_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2718.973 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/MYDOWNLOADS/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.FourBitAdder
+Compiling module xil_defaultlib.EightBitAdder
+Compiling module xil_defaultlib.SixteenAdder
+Compiling module xil_defaultlib.Adder_32
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.RB
+Compiling module xil_defaultlib.sign_ext
+Compiling module xil_defaultlib.EightBitSubtractor
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.AND_32
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.OR_32
+Compiling module xil_defaultlib.XOR
+Compiling module xil_defaultlib.XOR_32
+Compiling module xil_defaultlib.complementer
+Compiling module xil_defaultlib.MUX_2_to_1
+Compiling module xil_defaultlib.MUX_4_to_1
+Compiling module xil_defaultlib.MUX_8_to_1
+Compiling module xil_defaultlib.MUX_16_to_1
+Compiling module xil_defaultlib.MUX_32_to_1
+Compiling module xil_defaultlib.left_shift_32bit
+Compiling module xil_defaultlib.logical_right_shift_32bit
+Compiling module xil_defaultlib.arithmetic_right_shift_32bit
+Compiling module xil_defaultlib.comparator_32
+Compiling module xil_defaultlib.HAMM
+Compiling module xil_defaultlib.HAMM_32bit
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.LMD
+Compiling module xil_defaultlib.PC
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.instr_memory
+Compiling module xil_defaultlib.IN_REG
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.step_decoder
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.ALU_function
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 2718.973 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.d1.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.im.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+                   0          x          x 
+                   0          0          0 
+                  47 4294967295          0 
+                  50 4294967295 4294967278 
+                  60 4294967295 4294967242 
+                  68 4294967294 4294967242 
+                  70 4294967294 4294967170 
+                  81 4294967294 4294967026 
+                  91 4294967294 4294966738 
+                 102 4294967294 4294966162 
+                 112 4294967294 4294965010 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 2718.973 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Sujan\Downloads\final_project\final_project.srcs\sources_1\new\RB.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Sujan\Downloads\final_project\final_project.srcs\sim_1\new\test_bench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Sujan\Downloads\final_project\final_project.srcs\sources_1\new\RB.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Sujan\Downloads\final_project\final_project.srcs\sources_1\new\RB.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_bench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/MYDOWNLOADS/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/MYDOWNLOADS/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/booth_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/instr_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/booth_ins.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file - 1.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/sort-ins.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/sim/instr_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/sim/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU_function.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_function
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/Adder_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitSubtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitSubtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/FourBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/IN_REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/LMD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LMD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_16_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_2_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_32_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_32_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_4_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_8_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/SixteenAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SixteenAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/arithmetic_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/comparator_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/complementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/instruction_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/left_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/logical_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module logical_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/sign_ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/step_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module step_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2718.973 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/MYDOWNLOADS/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.FourBitAdder
+Compiling module xil_defaultlib.EightBitAdder
+Compiling module xil_defaultlib.SixteenAdder
+Compiling module xil_defaultlib.Adder_32
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.RB
+Compiling module xil_defaultlib.sign_ext
+Compiling module xil_defaultlib.EightBitSubtractor
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.AND_32
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.OR_32
+Compiling module xil_defaultlib.XOR
+Compiling module xil_defaultlib.XOR_32
+Compiling module xil_defaultlib.complementer
+Compiling module xil_defaultlib.MUX_2_to_1
+Compiling module xil_defaultlib.MUX_4_to_1
+Compiling module xil_defaultlib.MUX_8_to_1
+Compiling module xil_defaultlib.MUX_16_to_1
+Compiling module xil_defaultlib.MUX_32_to_1
+Compiling module xil_defaultlib.left_shift_32bit
+Compiling module xil_defaultlib.logical_right_shift_32bit
+Compiling module xil_defaultlib.arithmetic_right_shift_32bit
+Compiling module xil_defaultlib.comparator_32
+Compiling module xil_defaultlib.HAMM
+Compiling module xil_defaultlib.HAMM_32bit
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.LMD
+Compiling module xil_defaultlib.PC
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.instr_memory
+Compiling module xil_defaultlib.IN_REG
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.step_decoder
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.ALU_function
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 2718.973 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.d1.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.im.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+                   0          x          x 
+                   0          0          0 
+                  47 4294967295          0 
+                  50 4294967295 4294967278 
+                  60 4294967295 4294967242 
+                  68 4294967294 4294967242 
+                  70 4294967294 4294967170 
+                  81 4294967294 4294967026 
+                  91 4294967294 4294966738 
+                 102 4294967294 4294966162 
+                 112 4294967294 4294965010 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:19 . Memory (MB): peak = 2718.973 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Sujan\Downloads\final_project\final_project.srcs\sources_1\new\RB.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Sujan\Downloads\final_project\final_project.srcs\sim_1\new\test_bench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Sujan\Downloads\final_project\final_project.srcs\sources_1\new\RB.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Sujan\Downloads\final_project\final_project.srcs\sources_1\new\RB.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_bench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/MYDOWNLOADS/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/MYDOWNLOADS/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/booth_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/instr_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/booth_ins.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file - 1.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/sort-ins.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/sim/instr_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/sim/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU_function.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_function
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/Adder_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitSubtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitSubtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/FourBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/IN_REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/LMD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LMD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_16_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_2_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_32_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_32_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_4_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_8_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/SixteenAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SixteenAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/arithmetic_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/comparator_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/complementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/instruction_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/left_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/logical_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module logical_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/sign_ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/step_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module step_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2890.348 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/MYDOWNLOADS/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.FourBitAdder
+Compiling module xil_defaultlib.EightBitAdder
+Compiling module xil_defaultlib.SixteenAdder
+Compiling module xil_defaultlib.Adder_32
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.RB
+Compiling module xil_defaultlib.sign_ext
+Compiling module xil_defaultlib.EightBitSubtractor
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.AND_32
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.OR_32
+Compiling module xil_defaultlib.XOR
+Compiling module xil_defaultlib.XOR_32
+Compiling module xil_defaultlib.complementer
+Compiling module xil_defaultlib.MUX_2_to_1
+Compiling module xil_defaultlib.MUX_4_to_1
+Compiling module xil_defaultlib.MUX_8_to_1
+Compiling module xil_defaultlib.MUX_16_to_1
+Compiling module xil_defaultlib.MUX_32_to_1
+Compiling module xil_defaultlib.left_shift_32bit
+Compiling module xil_defaultlib.logical_right_shift_32bit
+Compiling module xil_defaultlib.arithmetic_right_shift_32bit
+Compiling module xil_defaultlib.comparator_32
+Compiling module xil_defaultlib.HAMM
+Compiling module xil_defaultlib.HAMM_32bit
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.LMD
+Compiling module xil_defaultlib.PC
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.instr_memory
+Compiling module xil_defaultlib.IN_REG
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.step_decoder
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.ALU_function
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 2890.348 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.d1.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.im.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+                   0          x          x 
+                   1          0          0 
+                 201 4294967295          0 
+                 225 4294967295 4294967278 
+                 329 4294967295 4294967242 
+                 409 4294967294 4294967242 
+                 433 4294967294 4294967170 
+                 537 4294967294 4294967026 
+                 641 4294967294 4294966738 
+                 745 4294967294 4294966162 
+                 849 4294967294 4294965010 
+xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2890.348 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:24 . Memory (MB): peak = 2890.348 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Sujan\Downloads\final_project\final_project.srcs\sources_1\new\RB.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Sujan\Downloads\final_project\final_project.srcs\sim_1\new\test_bench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Sujan\Downloads\final_project\final_project.srcs\sources_1\new\RB.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Sujan\Downloads\final_project\final_project.srcs\sources_1\new\RB.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov  5 18:16:02 2024...

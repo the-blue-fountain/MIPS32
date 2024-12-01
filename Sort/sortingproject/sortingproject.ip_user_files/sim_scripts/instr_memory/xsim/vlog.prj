@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../../sortingproject.gen/sources_1/ip/instr_memory/sim/instr_memory.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

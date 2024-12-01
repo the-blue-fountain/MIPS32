@@ -1,0 +1,1 @@
+This is a 32 bit RISC processor designed in verilog for the assignment in our Computer Architecture Laboratory course. The only pdf file in the repository is its specifications, and you can study it to know more. 

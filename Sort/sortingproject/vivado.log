@@ -1,0 +1,1132 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Nov 12 22:41:19 2024
+# Process ID: 69
+# Current directory: /home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject
+# Command line: vivado /home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.xpr
+# Log file: /home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/vivado.log
+# Journal file: /home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/vivado.jou
+# Running On        :MajiLaptop
+# Platform          :unknown
+# Operating System  :unknown
+# Processor Detail  :12th Gen Intel(R) Core(TM) i7-1255U
+# CPU Frequency     :533.672 MHz
+# CPU Physical cores:10
+# CPU Logical cores :12
+# Host memory       :16427 MB
+# Swap memory       :0 MB
+# Total Virtual     :16427 MB
+# Available Virtual :11553 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from '/home/maji/Vivado/ProcessorCode/sorting/sortingproject' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 7966.895 ; gain = 491.281 ; free physical = 4026 ; free virtual = 10003
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_bench'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/data_memory.mif'
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/data_file.coe'
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/instr_memory.mif'
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/sort-ins.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj test_bench_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.gen/sources_1/ip/instr_memory/sim/instr_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.gen/sources_1/ip/data_memory/sim/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/ALU_function.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_function
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/AND_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/Adder_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/EightBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/EightBitSubtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitSubtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/FourBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/HAMM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/HAMM_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/IN_REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/LMD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LMD
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_16_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_2_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_32_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_32_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_4_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_8_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/OR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RB
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/SixteenAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SixteenAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/XOR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/arithmetic_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/comparator_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/complementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/instruction_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/left_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/logical_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module logical_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/sign_ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/step_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module step_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sim/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clock_div
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.FourBitAdder
+Compiling module xil_defaultlib.EightBitAdder
+Compiling module xil_defaultlib.SixteenAdder
+Compiling module xil_defaultlib.Adder_32
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.RB
+Compiling module xil_defaultlib.sign_ext
+Compiling module xil_defaultlib.EightBitSubtractor
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.AND_32
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.OR_32
+Compiling module xil_defaultlib.XOR
+Compiling module xil_defaultlib.XOR_32
+Compiling module xil_defaultlib.complementer
+Compiling module xil_defaultlib.MUX_2_to_1
+Compiling module xil_defaultlib.MUX_4_to_1
+Compiling module xil_defaultlib.MUX_8_to_1
+Compiling module xil_defaultlib.MUX_16_to_1
+Compiling module xil_defaultlib.MUX_32_to_1
+Compiling module xil_defaultlib.left_shift_32bit
+Compiling module xil_defaultlib.logical_right_shift_32bit
+Compiling module xil_defaultlib.arithmetic_right_shift_32bit
+Compiling module xil_defaultlib.comparator_32
+Compiling module xil_defaultlib.HAMM
+Compiling module xil_defaultlib.HAMM_32bit
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.LMD
+Compiling module xil_defaultlib.PC
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.instr_memory
+Compiling module xil_defaultlib.IN_REG
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.step_decoder
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.ALU_function
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+execute_script: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 8118.949 ; gain = 0.000 ; free physical = 3855 ; free virtual = 9836
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.d1.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.im.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+**         x 00000     x
+**         x     x
+**         x
+**         x
+**         x
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 8181.254 ; gain = 62.305 ; free physical = 3757 ; free virtual = 9784
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_bench'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/data_memory.mif'
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/data_file.coe'
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/instr_memory.mif'
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/sort-ins.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj test_bench_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.gen/sources_1/ip/instr_memory/sim/instr_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.gen/sources_1/ip/data_memory/sim/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/ALU_function.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_function
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/AND_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/Adder_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/EightBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/EightBitSubtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitSubtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/FourBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/HAMM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/HAMM_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/IN_REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/LMD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LMD
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_16_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_2_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_32_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_32_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_4_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_8_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/OR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RB
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/SixteenAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SixteenAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/XOR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/arithmetic_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/comparator_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/complementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/instruction_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/left_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/logical_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module logical_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/sign_ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/step_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module step_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sim/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clock_div
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.FourBitAdder
+Compiling module xil_defaultlib.EightBitAdder
+Compiling module xil_defaultlib.SixteenAdder
+Compiling module xil_defaultlib.Adder_32
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.RB
+Compiling module xil_defaultlib.sign_ext
+Compiling module xil_defaultlib.EightBitSubtractor
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.AND_32
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.OR_32
+Compiling module xil_defaultlib.XOR
+Compiling module xil_defaultlib.XOR_32
+Compiling module xil_defaultlib.complementer
+Compiling module xil_defaultlib.MUX_2_to_1
+Compiling module xil_defaultlib.MUX_4_to_1
+Compiling module xil_defaultlib.MUX_8_to_1
+Compiling module xil_defaultlib.MUX_16_to_1
+Compiling module xil_defaultlib.MUX_32_to_1
+Compiling module xil_defaultlib.left_shift_32bit
+Compiling module xil_defaultlib.logical_right_shift_32bit
+Compiling module xil_defaultlib.arithmetic_right_shift_32bit
+Compiling module xil_defaultlib.comparator_32
+Compiling module xil_defaultlib.HAMM
+Compiling module xil_defaultlib.HAMM_32bit
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.LMD
+Compiling module xil_defaultlib.PC
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.instr_memory
+Compiling module xil_defaultlib.IN_REG
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.step_decoder
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.ALU_function
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+execute_script: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 8257.129 ; gain = 0.000 ; free physical = 3786 ; free virtual = 9767
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.d1.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.im.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+**         1 01110     1
+**         3     3
+**         4
+**         5
+**         8
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 8259.602 ; gain = 2.473 ; free physical = 3709 ; free virtual = 9737
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_bench'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/data_memory.mif'
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/data_file.coe'
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/instr_memory.mif'
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/sort-ins.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj test_bench_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.gen/sources_1/ip/instr_memory/sim/instr_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.gen/sources_1/ip/data_memory/sim/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/ALU_function.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_function
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/AND_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/Adder_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/EightBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/EightBitSubtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitSubtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/FourBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/HAMM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/HAMM_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/IN_REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/LMD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LMD
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_16_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_2_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_32_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_32_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_4_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_8_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/OR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RB
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/SixteenAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SixteenAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/XOR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/arithmetic_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/comparator_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/complementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/instruction_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/left_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/logical_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module logical_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/sign_ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/step_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module step_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sim/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 8 for port 'out' [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sim/test_bench.v:30]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 16 for port 'out' [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:47]
+ERROR: [VRFC 10-8616] 'data_path' requires 26 arguments [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:47]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_bench'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/data_memory.mif'
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/data_file.coe'
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/instr_memory.mif'
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/sort-ins.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj test_bench_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.gen/sources_1/ip/instr_memory/sim/instr_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.gen/sources_1/ip/data_memory/sim/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/ALU_function.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_function
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/AND_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/Adder_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/EightBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/EightBitSubtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitSubtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/FourBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/HAMM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/HAMM_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/IN_REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/LMD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LMD
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_16_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_2_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_32_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_32_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_4_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_8_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/OR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RB
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/SixteenAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SixteenAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/XOR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/arithmetic_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/comparator_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/complementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/instruction_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/left_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/logical_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module logical_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/sign_ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/step_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module step_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sim/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clock_div
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.FourBitAdder
+Compiling module xil_defaultlib.EightBitAdder
+Compiling module xil_defaultlib.SixteenAdder
+Compiling module xil_defaultlib.Adder_32
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.RB
+Compiling module xil_defaultlib.sign_ext
+Compiling module xil_defaultlib.EightBitSubtractor
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.AND_32
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.OR_32
+Compiling module xil_defaultlib.XOR
+Compiling module xil_defaultlib.XOR_32
+Compiling module xil_defaultlib.complementer
+Compiling module xil_defaultlib.MUX_2_to_1
+Compiling module xil_defaultlib.MUX_4_to_1
+Compiling module xil_defaultlib.MUX_8_to_1
+Compiling module xil_defaultlib.MUX_16_to_1
+Compiling module xil_defaultlib.MUX_32_to_1
+Compiling module xil_defaultlib.left_shift_32bit
+Compiling module xil_defaultlib.logical_right_shift_32bit
+Compiling module xil_defaultlib.arithmetic_right_shift_32bit
+Compiling module xil_defaultlib.comparator_32
+Compiling module xil_defaultlib.HAMM
+Compiling module xil_defaultlib.HAMM_32bit
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.LMD
+Compiling module xil_defaultlib.PC
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.instr_memory
+Compiling module xil_defaultlib.IN_REG
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.step_decoder
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.ALU_function
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+execute_script: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 8282.641 ; gain = 0.000 ; free physical = 3696 ; free virtual = 9673
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.d1.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.im.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+**         1 01110     1
+**         3     3
+**         4
+**         5
+**         8
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 8294.609 ; gain = 11.969 ; free physical = 3680 ; free virtual = 9701
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/data_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/data_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/data_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/data_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/data_path.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_bench'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/data_memory.mif'
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/data_file.coe'
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/instr_memory.mif'
+INFO: [SIM-utils-43] Exported '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim/sort-ins.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj test_bench_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.gen/sources_1/ip/instr_memory/sim/instr_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.gen/sources_1/ip/data_memory/sim/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/ALU_function.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_function
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/AND_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/Adder_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/EightBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/EightBitSubtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitSubtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/FourBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/HAMM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/HAMM_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/IN_REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/LMD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LMD
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_16_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_2_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_32_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_32_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_4_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/MUX_8_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/OR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RB
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/SixteenAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SixteenAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/XOR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/arithmetic_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/comparator_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/complementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/instruction_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/left_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/logical_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module logical_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/sign_ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/step_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module step_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sim/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clock_div
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.FourBitAdder
+Compiling module xil_defaultlib.EightBitAdder
+Compiling module xil_defaultlib.SixteenAdder
+Compiling module xil_defaultlib.Adder_32
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.RB
+Compiling module xil_defaultlib.sign_ext
+Compiling module xil_defaultlib.EightBitSubtractor
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.AND_32
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.OR_32
+Compiling module xil_defaultlib.XOR
+Compiling module xil_defaultlib.XOR_32
+Compiling module xil_defaultlib.complementer
+Compiling module xil_defaultlib.MUX_2_to_1
+Compiling module xil_defaultlib.MUX_4_to_1
+Compiling module xil_defaultlib.MUX_8_to_1
+Compiling module xil_defaultlib.MUX_16_to_1
+Compiling module xil_defaultlib.MUX_32_to_1
+Compiling module xil_defaultlib.left_shift_32bit
+Compiling module xil_defaultlib.logical_right_shift_32bit
+Compiling module xil_defaultlib.arithmetic_right_shift_32bit
+Compiling module xil_defaultlib.comparator_32
+Compiling module xil_defaultlib.HAMM
+Compiling module xil_defaultlib.HAMM_32bit
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.LMD
+Compiling module xil_defaultlib.PC
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.instr_memory
+Compiling module xil_defaultlib.IN_REG
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.step_decoder
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.ALU_function
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+execute_script: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8305.805 ; gain = 0.000 ; free physical = 3725 ; free virtual = 9702
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.d1.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.im.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+**         1 01110     1
+**         3     3
+**         4
+**         5
+**         8
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 8350.617 ; gain = 44.812 ; free physical = 3686 ; free virtual = 9718
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/data_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/data_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/sortingproject/sortingproject.srcs/sources_1/new/clock_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/data_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/maji/.var/app/com.github.corna.Vivado/Videos/ProcessorCode/sorting/design/top_module.v:]
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 12 22:48:24 2024...

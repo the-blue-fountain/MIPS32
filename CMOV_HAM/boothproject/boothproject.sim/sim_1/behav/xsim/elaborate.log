@@ -1,0 +1,63 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/maji/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 11 for port 'addra' [/home/maji/Videos/MIPS32/CMOV_HAM/design/data_path.v:60]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clock_div
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.FourBitAdder
+Compiling module xil_defaultlib.EightBitAdder
+Compiling module xil_defaultlib.SixteenAdder
+Compiling module xil_defaultlib.Adder_32
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.RB
+Compiling module xil_defaultlib.sign_ext
+Compiling module xil_defaultlib.EightBitSubtractor
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.AND_32
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.OR_32
+Compiling module xil_defaultlib.XOR
+Compiling module xil_defaultlib.XOR_32
+Compiling module xil_defaultlib.complementer
+Compiling module xil_defaultlib.MUX_2_to_1
+Compiling module xil_defaultlib.MUX_4_to_1
+Compiling module xil_defaultlib.MUX_8_to_1
+Compiling module xil_defaultlib.MUX_16_to_1
+Compiling module xil_defaultlib.MUX_32_to_1
+Compiling module xil_defaultlib.left_shift_32bit
+Compiling module xil_defaultlib.logical_right_shift_32bit
+Compiling module xil_defaultlib.arithmetic_right_shift_32bit
+Compiling module xil_defaultlib.comparator_32
+Compiling module xil_defaultlib.HAMM
+Compiling module xil_defaultlib.HAMM_32bit
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.LMD
+Compiling module xil_defaultlib.PC
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.instr_memory
+Compiling module xil_defaultlib.IN_REG
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.step_decoder
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.ALU_function
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav

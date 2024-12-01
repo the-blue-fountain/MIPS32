@@ -1,0 +1,1164 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Nov  4 23:14:14 2024
+# Process ID: 22616
+# Current directory: C:/Users/Sujan/Downloads/final_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26320 C:\Users\Sujan\Downloads\final_project\final_project.xpr
+# Log file: C:/Users/Sujan/Downloads/final_project/vivado.log
+# Journal file: C:/Users/Sujan/Downloads/final_project\vivado.jou
+# Running On        :SUJAN-KGP
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-1235U
+# CPU Frequency     :2496 MHz
+# CPU Physical cores:10
+# CPU Logical cores :12
+# Host memory       :8259 MB
+# Swap memory       :13958 MB
+# Total Virtual     :22218 MB
+# Available Virtual :9623 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Sujan/Downloads/final_project/final_project.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/MYDOWNLOADS/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/MYDOWNLOADS/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1550.992 ; gain = 430.426
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2024.1.0
+  **** Build date : Mar  6 2024 at 20:50:54
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2024.1.0
+  ****** Build date   : Mar 09 2024-05:30:37
+    **** Build number : 2024.1.1709942437
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 1567.129 ; gain = 16.137
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B7F618A
+set_property PROGRAM.FILE {C:/Users/Sujan/Downloads/final_project/final_project.runs/impl_1/top_module.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Sujan/Downloads/final_project/final_project.runs/impl_1/top_module.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/Sujan/Downloads/mem_file.coe' provided. It will be converted relative to IP Instance files '../../../../../mem_file.coe'
+set_property CONFIG.Coe_File {C:/Users/Sujan/Downloads/mem_file.coe} [get_ips instr_memory]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/Sujan/Downloads/mem_file.coe' provided. It will be converted relative to IP Instance files '../../../../../mem_file.coe'
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292B7F618A
+generate_target all [get_files  C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'instr_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'instr_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'instr_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'instr_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'instr_memory'...
+catch { config_ip_cache -export [get_ips -all instr_memory] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: instr_memory
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 03b76f8059ef6c39 to dir: c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Sujan/Downloads/final_project/final_project.cache/ip/2024.1/0/3/03b76f8059ef6c39/instr_memory.dcp to c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Sujan/Downloads/final_project/final_project.cache/ip/2024.1/0/3/03b76f8059ef6c39/instr_memory_sim_netlist.v to c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Sujan/Downloads/final_project/final_project.cache/ip/2024.1/0/3/03b76f8059ef6c39/instr_memory_sim_netlist.vhdl to c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Sujan/Downloads/final_project/final_project.cache/ip/2024.1/0/3/03b76f8059ef6c39/instr_memory_stub.v to c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Sujan/Downloads/final_project/final_project.cache/ip/2024.1/0/3/03b76f8059ef6c39/instr_memory_stub.vhdl to c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/instr_memory_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP instr_memory, cache-ID = 03b76f8059ef6c39; cache size = 5.040 MB.
+catch { [ delete_ip_run [get_ips -all instr_memory] ] }
+INFO: [Project 1-386] Moving file 'C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci' from fileset 'instr_memory' to fileset 'sources_1'.
+export_ip_user_files -of_objects [get_files C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci'
+export_simulation -of_objects [get_files C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci] -directory C:/Users/Sujan/Downloads/final_project/final_project.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Sujan/Downloads/final_project/final_project.ip_user_files -ipstatic_source_dir C:/Users/Sujan/Downloads/final_project/final_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/modelsim} {questa=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/questa} {riviera=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/riviera} {activehdl=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/Sujan/Downloads/final_project/final_project.srcs/utils_1/imports/synth_1/top_module.dcp with file C:/Users/Sujan/Downloads/final_project/final_project.runs/synth_1/top_module.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci' is already up-to-date
+[Mon Nov  4 23:30:27 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Sujan/Downloads/final_project/final_project.runs/synth_1/runme.log
+[Mon Nov  4 23:30:27 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Sujan/Downloads/final_project/final_project.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B7F618A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_bench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/MYDOWNLOADS/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/MYDOWNLOADS/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/instr_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file - 1.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/sim/instr_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/sim/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU_function.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_function
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/Adder_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitSubtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitSubtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/FourBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/IN_REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/LMD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LMD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_16_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_2_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_32_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_32_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_4_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_8_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/SixteenAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SixteenAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/arithmetic_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/comparator_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/comparator_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/comparator_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/complementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/instruction_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/left_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/logical_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module logical_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/sign_ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/step_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module step_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1696.133 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '12' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/MYDOWNLOADS/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.FourBitAdder
+Compiling module xil_defaultlib.EightBitAdder
+Compiling module xil_defaultlib.SixteenAdder
+Compiling module xil_defaultlib.Adder_32
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.RB
+Compiling module xil_defaultlib.sign_ext
+Compiling module xil_defaultlib.EightBitSubtractor
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.AND_32
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.OR_32
+Compiling module xil_defaultlib.XOR
+Compiling module xil_defaultlib.XOR_32
+Compiling module xil_defaultlib.complementer
+Compiling module xil_defaultlib.MUX_2_to_1
+Compiling module xil_defaultlib.MUX_4_to_1
+Compiling module xil_defaultlib.MUX_8_to_1
+Compiling module xil_defaultlib.MUX_16_to_1
+Compiling module xil_defaultlib.MUX_32_to_1
+Compiling module xil_defaultlib.left_shift_32bit
+Compiling module xil_defaultlib.logical_right_shift_32bit
+Compiling module xil_defaultlib.arithmetic_right_shift_32bit
+Compiling module xil_defaultlib.comparator_4
+Compiling module xil_defaultlib.comparator_8
+Compiling module xil_defaultlib.comparator_32
+Compiling module xil_defaultlib.HAMM
+Compiling module xil_defaultlib.HAMM_32bit
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.LMD
+Compiling module xil_defaultlib.PC
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.instr_memory
+Compiling module xil_defaultlib.IN_REG
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.step_decoder
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.ALU_function
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:16 . Memory (MB): peak = 1696.133 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '16' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.d1.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.im.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+                   000000000000000000000000000000000  x          x
+                   100000000000000000000000000000000  0          0
+                   3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  0          0
+                   501110000000010000000000000000000  0          0
+                  3101110000000010000000000000000000  1          0
+                  3301110000000010000000000000000000  2          0
+                  3501110000000010000000000000000000  3          0
+                  3701110000000010000000000000000000  4          0
+                  3901110000000010000000000000000000  5          0
+                  4101110000000010000000000000000000  6          0
+                  4301110000000010000000000000000000  0          0
+                  4501110000000010000000000000000000  1          0
+                  4500000000100100010000000000000000  1          0
+                  4700000000100100010000000000000000  2          0
+                  4900000000100100010000000000000000  3          0
+                  5100000000100100010000000000000000  0          1
+                  5300000000100100010000000000000000  1          1
+                  5301110000000010000000000000000001  1          1
+                  5501110000000010000000000000000001  2          1
+                  5701110000000010000000000000000001  3          1
+                  5901110000000010000000000000000001  4          1
+                  6101110000000010000000000000000001  5          1
+                  6301110000000010000000000000000001  6          1
+                  6501110000000010000000000000000001  0          1
+                  6701110000000010000000000000000001  1          1
+                  6700000000100100010000000000000000  1          1
+                  6900000000100100010000000000000000  2          1
+                  7100000000100100010000000000000000  3          1
+                  7300000000100100010000000000000000  0          3
+                  7500000000100100010000000000000000  1          3
+                  7501110000000010000000000000000010  1          3
+                  7701110000000010000000000000000010  2          3
+                  7901110000000010000000000000000010  3          3
+                  8101110000000010000000000000000010  4          3
+                  8301110000000010000000000000000010  5          3
+                  8501110000000010000000000000000010  6          3
+                  8701110000000010000000000000000010  0          3
+                  8901110000000010000000000000000010  1          3
+                  8900000000100100010000000000000000  1          3
+                  9100000000100100010000000000000000  2          3
+                  9300000000100100010000000000000000  3          3
+                  9500000000100100010000000000000000  0          6
+                  9700000000100100010000000000000000  1          6
+                  9701110000000010000000000000000011  1          6
+                  9901110000000010000000000000000011  2          6
+                 10101110000000010000000000000000011  3          6
+                 10301110000000010000000000000000011  4          6
+                 10501110000000010000000000000000011  5          6
+                 10701110000000010000000000000000011  6          6
+                 10901110000000010000000000000000011  0          6
+                 11101110000000010000000000000000011  1          6
+                 11100000000100100010000000000000000  1          6
+                 11300000000100100010000000000000000  2          6
+                 11500000000100100010000000000000000  3          6
+                 11700000000100100010000000000000000  0         10
+                 11900000000100100010000000000000000  1         10
+                 11901110000000010000000000000000100  1         10
+                 12101110000000010000000000000000100  2         10
+                 12301110000000010000000000000000100  3         10
+                 12501110000000010000000000000000100  4         10
+                 12701110000000010000000000000000100  5         10
+                 12901110000000010000000000000000100  6         10
+                 13101110000000010000000000000000100  0         10
+                 13301110000000010000000000000000100  1         10
+                 13300000000100100010000000000000000  1         10
+                 13500000000100100010000000000000000  2         10
+                 13700000000100100010000000000000000  3         10
+                 13900000000100100010000000000000000  0         15
+                 14100000000100100010000000000000000  1         15
+                 14101110000000010000000000000000101  1         15
+                 14301110000000010000000000000000101  2         15
+                 14501110000000010000000000000000101  3         15
+                 14701110000000010000000000000000101  4         15
+                 14901110000000010000000000000000101  5         15
+                 15101110000000010000000000000000101  6         15
+                 15301110000000010000000000000000101  0         15
+                 15501110000000010000000000000000101  1         15
+                 15500000000100100010000000000000000  1         15
+                 15700000000100100010000000000000000  2         15
+                 15900000000100100010000000000000000  3         15
+                 16100000000100100010000000000000000  0         21
+                 16300000000100100010000000000000000  1         21
+                 16301110000000010000000000000000110  1         21
+                 16501110000000010000000000000000110  2         21
+                 16701110000000010000000000000000110  3         21
+                 16901110000000010000000000000000110  4         21
+                 17101110000000010000000000000000110  5         21
+                 17301110000000010000000000000000110  6         21
+                 17501110000000010000000000000000110  0         21
+                 17701110000000010000000000000000110  1         21
+                 17700000000100100010000000000000000  1         21
+                 17900000000100100010000000000000000  2         21
+                 18100000000100100010000000000000000  3         21
+                 18300000000100100010000000000000000  0         28
+                 18500000000100100010000000000000000  1         28
+                 18501110000000010000000000000000111  1         28
+                 18701110000000010000000000000000111  2         28
+                 18901110000000010000000000000000111  3         28
+                 19101110000000010000000000000000111  4         28
+                 19301110000000010000000000000000111  5         28
+                 19501110000000010000000000000000111  6         28
+                 19701110000000010000000000000000111  0         28
+                 19901110000000010000000000000000111  1         28
+                 19900000000100100010000000000000000  1         28
+                 20100000000100100010000000000000000  2         28
+                 20300000000100100010000000000000000  3         28
+                 20500000000100100010000000000000000  0         36
+                 20700000000100100010000000000000000  1         36
+                 20701110000000010000000000000001000  1         36
+                 20901110000000010000000000000001000  2         36
+                 21101110000000010000000000000001000  3         36
+                 21301110000000010000000000000001000  4         36
+                 21501110000000010000000000000001000  5         36
+                 21701110000000010000000000000001000  6         36
+                 21901110000000010000000000000001000  0         36
+                 22101110000000010000000000000001000  1         36
+                 22100000000100100010000000000000000  1         36
+                 22300000000100100010000000000000000  2         36
+                 22500000000100100010000000000000000  3         36
+                 22700000000100100010000000000000000  0         45
+                 22900000000100100010000000000000000  1         45
+                 22901110000000010000000000000001001  1         45
+                 23101110000000010000000000000001001  2         45
+                 23301110000000010000000000000001001  3         45
+                 23501110000000010000000000000001001  4         45
+                 23701110000000010000000000000001001  5         45
+                 23901110000000010000000000000001001  6         45
+                 24101110000000010000000000000001001  0         45
+                 24301110000000010000000000000001001  1         45
+                 24300000000100100010000000000000000  1         45
+                 24500000000100100010000000000000000  2         45
+                 24700000000100100010000000000000000  3         45
+                 24900000000100100010000000000000000  0         55
+                 25100000000100100010000000000000000  1         55
+                 25110110000000000000000000000000000  1         55
+                 25310110000000000000000000000000000  2         55
+                 25510110000000000000000000000000000  3         55
+xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1756.418 ; gain = 48.688
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:36 . Memory (MB): peak = 1756.418 ; gain = 60.285
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Device 21-9227] Part: xc7a100tcsg324-1 does not have CEAM library.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 2138.824 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 231 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2231.367 ; gain = 0.066
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2818.367 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 2818.367 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.094 . Memory (MB): peak = 2818.367 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2818.367 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 2818.367 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.193 . Memory (MB): peak = 2818.367 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.194 . Memory (MB): peak = 2818.367 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2818.367 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  LDCP => LDCP (GND, LDCE, LUT3(x2), VCC): 2 instances
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:25 . Memory (MB): peak = 2910.512 ; gain = 1150.934
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Sujan/Downloads/final_project/final_project.runs/impl_1/top_module.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/Sujan/Downloads/mem_file - 1.coe' provided. It will be converted relative to IP Instance files '../../../../../mem_file - 1.coe'
+set_property CONFIG.Coe_File {C:/Users/Sujan/Downloads/mem_file - 1.coe} [get_ips instr_memory]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/Sujan/Downloads/mem_file - 1.coe' provided. It will be converted relative to IP Instance files '../../../../../mem_file - 1.coe'
+generate_target all [get_files  C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'instr_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'instr_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'instr_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'instr_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'instr_memory'...
+catch { config_ip_cache -export [get_ips -all instr_memory] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: instr_memory
+export_ip_user_files -of_objects [get_files C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci]
+launch_runs instr_memory_synth_1 -jobs 6
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: instr_memory
+[Mon Nov  4 23:44:40 2024] Launched instr_memory_synth_1...
+Run output will be captured here: C:/Users/Sujan/Downloads/final_project/final_project.runs/instr_memory_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/ip/instr_memory/instr_memory.xci] -directory C:/Users/Sujan/Downloads/final_project/final_project.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Sujan/Downloads/final_project/final_project.ip_user_files -ipstatic_source_dir C:/Users/Sujan/Downloads/final_project/final_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/modelsim} {questa=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/questa} {riviera=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/riviera} {activehdl=C:/Users/Sujan/Downloads/final_project/final_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_bench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/MYDOWNLOADS/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/MYDOWNLOADS/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/data_file.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/instr_memory.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file - 1.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim/mem_file.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/instr_memory/sim/instr_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.gen/sources_1/ip/data_memory/sim/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/ALU_function.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_function
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/AND_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/Adder_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/EightBitSubtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EightBitSubtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/FourBitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/HAMM_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAMM_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/IN_REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/LMD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LMD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_16_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_2_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_32_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_32_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_4_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/MUX_8_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/OR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/SixteenAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SixteenAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/XOR_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/arithmetic_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/comparator_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/comparator_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/comparator_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/complementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/instruction_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/left_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/ALU_final.srcs/ALU_final.srcs/sources_1/new/logical_right_shift_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module logical_right_shift_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/sign_ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/step_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module step_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sujan/Downloads/final_project/final_project.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2954.168 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/MYDOWNLOADS/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.FourBitAdder
+Compiling module xil_defaultlib.EightBitAdder
+Compiling module xil_defaultlib.SixteenAdder
+Compiling module xil_defaultlib.Adder_32
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.RB
+Compiling module xil_defaultlib.sign_ext
+Compiling module xil_defaultlib.EightBitSubtractor
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.AND_32
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.OR_32
+Compiling module xil_defaultlib.XOR
+Compiling module xil_defaultlib.XOR_32
+Compiling module xil_defaultlib.complementer
+Compiling module xil_defaultlib.MUX_2_to_1
+Compiling module xil_defaultlib.MUX_4_to_1
+Compiling module xil_defaultlib.MUX_8_to_1
+Compiling module xil_defaultlib.MUX_16_to_1
+Compiling module xil_defaultlib.MUX_32_to_1
+Compiling module xil_defaultlib.left_shift_32bit
+Compiling module xil_defaultlib.logical_right_shift_32bit
+Compiling module xil_defaultlib.arithmetic_right_shift_32bit
+Compiling module xil_defaultlib.comparator_4
+Compiling module xil_defaultlib.comparator_8
+Compiling module xil_defaultlib.comparator_32
+Compiling module xil_defaultlib.HAMM
+Compiling module xil_defaultlib.HAMM_32bit
+Compiling module xil_defaultlib.ALU
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.LMD
+Compiling module xil_defaultlib.PC
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.instr_memory
+Compiling module xil_defaultlib.IN_REG
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.step_decoder
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.ALU_function
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 2954.168 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '13' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sujan/Downloads/final_project/final_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.d1.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_bench.uut.DP.im.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+                   000000000000000000000000000000000  x          x
+                   100000000000000000000000000000000  0          0
+                   3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  0          0
+                   500001000000010000000000000010100  0          0
+                  3100001000000010000000000000010100  1          0
+                  3300001000000010000000000000010100  2          0
+                  3500001000000010000000000000010100  3          0
+                  3700001000000010000000000000010100  0          0
+                  3900001000000010000000000000010100  1          0
+                  3900001000000100000000000000000000  1          0
+                  4100001000000100000000000000000000  2          0
+                  4300001000000100000000000000000000  3          0
+                  4500001000000100000000000000000000  0          0
+                  4700001000000100000000000000000000  1          0
+                  4700000001000010010000000000000000  1          0
+                  4900000001000010010000000000000000  2          0
+                  5100000001000010010000000000000000  3          0
+                  5300000001000010010000000000000000  0         20
+                  5500000001000010010000000000000000  1         20
+                  5500001000100011111111111111111111  1         20
+                  5700001000100011111111111111111111  2         20
+                  5900001000100011111111111111111111  3         20
+                  6100001000100011111111111111111111  0         20
+                  6300001000100011111111111111111111  1         20
+                  6310010000100001111111111111111101  1         20
+                  6510010000100001111111111111111101  2         20
+                  6710010000100001111111111111111101  3         20
+                  6910010000100001111111111111111101  0         20
+                  7110010000100001111111111111111101  1         20
+                  7100000001000010010000000000000000  1         20
+                  7300000001000010010000000000000000  2         20
+                  7500000001000010010000000000000000  3         20
+                  7700000001000010010000000000000000  0         39
+                  7900000001000010010000000000000000  1         39
+                  7900001000100011111111111111111111  1         39
+                  8100001000100011111111111111111111  2         39
+                  8300001000100011111111111111111111  3         39
+                  8500001000100011111111111111111111  0         39
+                  8700001000100011111111111111111111  1         39
+                  8710010000100001111111111111111101  1         39
+                  8910010000100001111111111111111101  2         39
+                  9110010000100001111111111111111101  3         39
+                  9310010000100001111111111111111101  0         39
+                  9510010000100001111111111111111101  1         39
+                  9500000001000010010000000000000000  1         39
+                  9700000001000010010000000000000000  2         39
+                  9900000001000010010000000000000000  3         39
+                 10100000001000010010000000000000000  0         57
+                 10300000001000010010000000000000000  1         57
+                 10300001000100011111111111111111111  1         57
+                 10500001000100011111111111111111111  2         57
+                 10700001000100011111111111111111111  3         57
+                 10900001000100011111111111111111111  0         57
+                 11100001000100011111111111111111111  1         57
+                 11110010000100001111111111111111101  1         57
+                 11310010000100001111111111111111101  2         57
+                 11510010000100001111111111111111101  3         57
+                 11710010000100001111111111111111101  0         57
+                 11910010000100001111111111111111101  1         57
+                 11900000001000010010000000000000000  1         57
+                 12100000001000010010000000000000000  2         57
+                 12300000001000010010000000000000000  3         57
+                 12500000001000010010000000000000000  0         74
+                 12700000001000010010000000000000000  1         74
+                 12700001000100011111111111111111111  1         74
+                 12900001000100011111111111111111111  2         74
+                 13100001000100011111111111111111111  3         74
+                 13300001000100011111111111111111111  0         74
+                 13500001000100011111111111111111111  1         74
+                 13510010000100001111111111111111101  1         74
+                 13710010000100001111111111111111101  2         74
+                 13910010000100001111111111111111101  3         74
+                 14110010000100001111111111111111101  0         74
+                 14310010000100001111111111111111101  1         74
+                 14300000001000010010000000000000000  1         74
+                 14500000001000010010000000000000000  2         74
+                 14700000001000010010000000000000000  3         74
+                 14900000001000010010000000000000000  0         90
+                 15100000001000010010000000000000000  1         90
+                 15100001000100011111111111111111111  1         90
+                 15300001000100011111111111111111111  2         90
+                 15500001000100011111111111111111111  3         90
+                 15700001000100011111111111111111111  0         90
+                 15900001000100011111111111111111111  1         90
+                 15910010000100001111111111111111101  1         90
+                 16110010000100001111111111111111101  2         90
+                 16310010000100001111111111111111101  3         90
+                 16510010000100001111111111111111101  0         90
+                 16710010000100001111111111111111101  1         90
+                 16700000001000010010000000000000000  1         90
+                 16900000001000010010000000000000000  2         90
+                 17100000001000010010000000000000000  3         90
+                 17300000001000010010000000000000000  0        105
+                 17500000001000010010000000000000000  1        105
+                 17500001000100011111111111111111111  1        105
+                 17700001000100011111111111111111111  2        105
+                 17900001000100011111111111111111111  3        105
+                 18100001000100011111111111111111111  0        105
+                 18300001000100011111111111111111111  1        105
+                 18310010000100001111111111111111101  1        105
+                 18510010000100001111111111111111101  2        105
+                 18710010000100001111111111111111101  3        105
+                 18910010000100001111111111111111101  0        105
+                 19110010000100001111111111111111101  1        105
+                 19100000001000010010000000000000000  1        105
+                 19300000001000010010000000000000000  2        105
+                 19500000001000010010000000000000000  3        105
+                 19700000001000010010000000000000000  0        119
+                 19900000001000010010000000000000000  1        119
+                 19900001000100011111111111111111111  1        119
+                 20100001000100011111111111111111111  2        119
+                 20300001000100011111111111111111111  3        119
+                 20500001000100011111111111111111111  0        119
+                 20700001000100011111111111111111111  1        119
+                 20710010000100001111111111111111101  1        119
+                 20910010000100001111111111111111101  2        119
+                 21110010000100001111111111111111101  3        119
+                 21310010000100001111111111111111101  0        119
+                 21510010000100001111111111111111101  1        119
+                 21500000001000010010000000000000000  1        119
+                 21700000001000010010000000000000000  2        119
+                 21900000001000010010000000000000000  3        119
+                 22100000001000010010000000000000000  0        132
+                 22300000001000010010000000000000000  1        132
+                 22300001000100011111111111111111111  1        132
+                 22500001000100011111111111111111111  2        132
+                 22700001000100011111111111111111111  3        132
+                 22900001000100011111111111111111111  0        132
+                 23100001000100011111111111111111111  1        132
+                 23110010000100001111111111111111101  1        132
+                 23310010000100001111111111111111101  2        132
+                 23510010000100001111111111111111101  3        132
+                 23710010000100001111111111111111101  0        132
+                 23910010000100001111111111111111101  1        132
+                 23900000001000010010000000000000000  1        132
+                 24100000001000010010000000000000000  2        132
+                 24300000001000010010000000000000000  3        132
+                 24500000001000010010000000000000000  0        144
+                 24700000001000010010000000000000000  1        144
+                 24700001000100011111111111111111111  1        144
+                 24900001000100011111111111111111111  2        144
+                 25100001000100011111111111111111111  3        144
+                 25300001000100011111111111111111111  0        144
+                 25500001000100011111111111111111111  1        144
+                 25510010000100001111111111111111101  1        144
+                 25710010000100001111111111111111101  2        144
+                 25910010000100001111111111111111101  3        144
+                 26110010000100001111111111111111101  0        144
+                 26310010000100001111111111111111101  1        144
+                 26300000001000010010000000000000000  1        144
+                 26500000001000010010000000000000000  2        144
+                 26700000001000010010000000000000000  3        144
+                 26900000001000010010000000000000000  0        155
+                 27100000001000010010000000000000000  1        155
+                 27100001000100011111111111111111111  1        155
+                 27300001000100011111111111111111111  2        155
+                 27500001000100011111111111111111111  3        155
+                 27700001000100011111111111111111111  0        155
+                 27900001000100011111111111111111111  1        155
+                 27910010000100001111111111111111101  1        155
+                 28110010000100001111111111111111101  2        155
+                 28310010000100001111111111111111101  3        155
+                 28510010000100001111111111111111101  0        155
+                 28710010000100001111111111111111101  1        155
+                 28700000001000010010000000000000000  1        155
+                 28900000001000010010000000000000000  2        155
+                 29100000001000010010000000000000000  3        155
+                 29300000001000010010000000000000000  0        165
+                 29500000001000010010000000000000000  1        165
+                 29500001000100011111111111111111111  1        165
+                 29700001000100011111111111111111111  2        165
+                 29900001000100011111111111111111111  3        165
+                 30100001000100011111111111111111111  0        165
+                 30300001000100011111111111111111111  1        165
+                 30310010000100001111111111111111101  1        165
+                 30510010000100001111111111111111101  2        165
+                 30710010000100001111111111111111101  3        165
+                 30910010000100001111111111111111101  0        165
+                 31110010000100001111111111111111101  1        165
+                 31100000001000010010000000000000000  1        165
+                 31300000001000010010000000000000000  2        165
+                 31500000001000010010000000000000000  3        165
+                 31700000001000010010000000000000000  0        174
+                 31900000001000010010000000000000000  1        174
+                 31900001000100011111111111111111111  1        174
+                 32100001000100011111111111111111111  2        174
+                 32300001000100011111111111111111111  3        174
+                 32500001000100011111111111111111111  0        174
+                 32700001000100011111111111111111111  1        174
+                 32710010000100001111111111111111101  1        174
+                 32910010000100001111111111111111101  2        174
+                 33110010000100001111111111111111101  3        174
+                 33310010000100001111111111111111101  0        174
+                 33510010000100001111111111111111101  1        174
+                 33500000001000010010000000000000000  1        174
+                 33700000001000010010000000000000000  2        174
+                 33900000001000010010000000000000000  3        174
+                 34100000001000010010000000000000000  0        182
+                 34300000001000010010000000000000000  1        182
+                 34300001000100011111111111111111111  1        182
+                 34500001000100011111111111111111111  2        182
+                 34700001000100011111111111111111111  3        182
+                 34900001000100011111111111111111111  0        182
+                 35100001000100011111111111111111111  1        182
+                 35110010000100001111111111111111101  1        182
+                 35310010000100001111111111111111101  2        182
+                 35510010000100001111111111111111101  3        182
+                 35710010000100001111111111111111101  0        182
+                 35910010000100001111111111111111101  1        182
+                 35900000001000010010000000000000000  1        182
+                 36100000001000010010000000000000000  2        182
+                 36300000001000010010000000000000000  3        182
+                 36500000001000010010000000000000000  0        189
+                 36700000001000010010000000000000000  1        189
+                 36700001000100011111111111111111111  1        189
+                 36900001000100011111111111111111111  2        189
+                 37100001000100011111111111111111111  3        189
+                 37300001000100011111111111111111111  0        189
+                 37500001000100011111111111111111111  1        189
+                 37510010000100001111111111111111101  1        189
+                 37710010000100001111111111111111101  2        189
+                 37910010000100001111111111111111101  3        189
+                 38110010000100001111111111111111101  0        189
+                 38310010000100001111111111111111101  1        189
+                 38300000001000010010000000000000000  1        189
+                 38500000001000010010000000000000000  2        189
+                 38700000001000010010000000000000000  3        189
+                 38900000001000010010000000000000000  0        195
+                 39100000001000010010000000000000000  1        195
+                 39100001000100011111111111111111111  1        195
+                 39300001000100011111111111111111111  2        195
+                 39500001000100011111111111111111111  3        195
+                 39700001000100011111111111111111111  0        195
+                 39900001000100011111111111111111111  1        195
+                 39910010000100001111111111111111101  1        195
+                 40110010000100001111111111111111101  2        195
+                 40310010000100001111111111111111101  3        195
+                 40510010000100001111111111111111101  0        195
+                 40710010000100001111111111111111101  1        195
+                 40700000001000010010000000000000000  1        195
+                 40900000001000010010000000000000000  2        195
+                 41100000001000010010000000000000000  3        195
+                 41300000001000010010000000000000000  0        200
+                 41500000001000010010000000000000000  1        200
+                 41500001000100011111111111111111111  1        200
+                 41700001000100011111111111111111111  2        200
+                 41900001000100011111111111111111111  3        200
+                 42100001000100011111111111111111111  0        200
+                 42300001000100011111111111111111111  1        200
+                 42310010000100001111111111111111101  1        200
+                 42510010000100001111111111111111101  2        200
+                 42710010000100001111111111111111101  3        200
+                 42910010000100001111111111111111101  0        200
+                 43110010000100001111111111111111101  1        200
+                 43100000001000010010000000000000000  1        200
+                 43300000001000010010000000000000000  2        200
+                 43500000001000010010000000000000000  3        200
+                 43700000001000010010000000000000000  0        204
+                 43900000001000010010000000000000000  1        204
+                 43900001000100011111111111111111111  1        204
+                 44100001000100011111111111111111111  2        204
+                 44300001000100011111111111111111111  3        204
+                 44500001000100011111111111111111111  0        204
+                 44700001000100011111111111111111111  1        204
+                 44710010000100001111111111111111101  1        204
+                 44910010000100001111111111111111101  2        204
+                 45110010000100001111111111111111101  3        204
+                 45310010000100001111111111111111101  0        204
+                 45510010000100001111111111111111101  1        204
+                 45500000001000010010000000000000000  1        204
+                 45700000001000010010000000000000000  2        204
+                 45900000001000010010000000000000000  3        204
+                 46100000001000010010000000000000000  0        207
+                 46300000001000010010000000000000000  1        207
+                 46300001000100011111111111111111111  1        207
+                 46500001000100011111111111111111111  2        207
+                 46700001000100011111111111111111111  3        207
+                 46900001000100011111111111111111111  0        207
+                 47100001000100011111111111111111111  1        207
+                 47110010000100001111111111111111101  1        207
+                 47310010000100001111111111111111101  2        207
+                 47510010000100001111111111111111101  3        207
+                 47710010000100001111111111111111101  0        207
+                 47910010000100001111111111111111101  1        207
+                 47900000001000010010000000000000000  1        207
+                 48100000001000010010000000000000000  2        207
+                 48300000001000010010000000000000000  3        207
+                 48500000001000010010000000000000000  0        209
+                 48700000001000010010000000000000000  1        209
+                 48700001000100011111111111111111111  1        209
+                 48900001000100011111111111111111111  2        209
+                 49100001000100011111111111111111111  3        209
+                 49300001000100011111111111111111111  0        209
+                 49500001000100011111111111111111111  1        209
+                 49510010000100001111111111111111101  1        209
+                 49710010000100001111111111111111101  2        209
+                 49910010000100001111111111111111101  3        209
+                 50110010000100001111111111111111101  0        209
+                 50310010000100001111111111111111101  1        209
+                 50300000001000010010000000000000000  1        209
+                 50500000001000010010000000000000000  2        209
+                 50700000001000010010000000000000000  3        209
+                 50900000001000010010000000000000000  0        210
+                 51100000001000010010000000000000000  1        210
+                 51100001000100011111111111111111111  1        210
+                 51300001000100011111111111111111111  2        210
+                 51500001000100011111111111111111111  3        210
+                 51700001000100011111111111111111111  0        210
+                 51900001000100011111111111111111111  1        210
+                 51910010000100001111111111111111101  1        210
+                 52110010000100001111111111111111101  2        210
+                 52310010000100001111111111111111101  3        210
+                 52510010000100001111111111111111101  0        210
+                 52710010000100001111111111111111101  1        210
+                 52710110000000000000000000000000000  1        210
+                 52910110000000000000000000000000000  2        210
+                 53110110000000000000000000000000000  3        210
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:25 . Memory (MB): peak = 3074.289 ; gain = 120.121
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/Sujan/Downloads/final_project/final_project.srcs/utils_1/imports/synth_1/top_module.dcp with file C:/Users/Sujan/Downloads/final_project/final_project.runs/synth_1/top_module.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Sujan/Downloads/final_project/final_project.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Nov  4 23:47:31 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Sujan/Downloads/final_project/final_project.runs/synth_1/runme.log
+[Mon Nov  4 23:47:31 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Sujan/Downloads/final_project/final_project.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2024.1.0
+  **** Build date : Mar  6 2024 at 20:50:54
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2024.1.0
+  ****** Build date   : Mar 09 2024-05:30:37
+    **** Build number : 2024.1.1709942437
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 3074.289 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B7F618A
+set_property PROGRAM.FILE {C:/Users/Sujan/Downloads/final_project/final_project.runs/impl_1/top_module.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Sujan/Downloads/final_project/final_project.runs/impl_1/top_module.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+close_design
+close_design: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 3074.871 ; gain = 0.309
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov  5 00:51:17 2024...
